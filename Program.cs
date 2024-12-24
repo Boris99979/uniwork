@@ -64,7 +64,103 @@
 
 // Console.WriteLine("x = {0}, y = {1}", x, y);
 
-//Part 2
+//Part 2 - 4
+// Console.Write("Enter the number of points: ");
+//         int n = Convert.ToInt32(Console.ReadLine());
+
+//         // Create arrays to store x and y coordinates
+//         double[] x = new double[n];
+//         double[] y = new double[n];
+
+//         for (int i = 0; i < n; i++)
+//         {
+//             Console.Write($"Enter x for point {i + 1}: ");
+//             x[i] = Convert.ToDouble(Console.ReadLine());
+            
+//             Console.Write($"Enter y for point {i + 1}: ");
+//             y[i] = Convert.ToDouble(Console.ReadLine());
+//         }
+
+//         //Radius of inner ring and outer ring
+
+//         //Inner ring
+//         int r1 = 4;
+
+//         int r2 = 6;
+
+//         Console.WriteLine("\nYou entered the following points:");
+//         for (int i = 0; i < n; i++)
+//         {
+//             if ((x[i]*x[i] + y[i]*y[i]) < r1*r1)
+//             {
+//                 Console.WriteLine($"({x[i]}, {y[i]}) is inside the radius r1");
+//             } else if ((x[i]*x[i] + y[i]*y[i]) > r1*r1 && (x[i]*x[i] + y[i]*y[i]) < r2*r2)
+//             {
+//                 Console.WriteLine($"({x[i]}, {y[i]}) is inside the radius r2");
+//             } else 
+//             {
+//                 Console.WriteLine($"({x[i]}, {y[i]}) is outside both circle");
+//             }
+//         }
+
+//Part 3 - (2-9)
+// double bestTime = double.MaxValue; // Initialize to a very large value
+// while (true)
+// {
+//     Console.Write("Enter the swimmer time: ");
+//     string input = Console.ReadLine();
+//     if (string.IsNullOrEmpty(input)) break; // Stop if input is empty (Enter is pressed)
+
+//     double time = Convert.ToDouble(input);
+
+//     // Update the best time if a smaller time is found
+//     if (time < bestTime)
+//     {
+//         bestTime = time;
+//     }
+// }
+
+// Console.WriteLine($"The best swimming time is: {bestTime}");
+
+//Part 3 (2-8)
+
+
+
+double smallest = 10000;
+double x = 0, y = 0;
+double closestX = 0, closestY = 0;
+
+while (true)
+{
+    Console.Write("Enter x: ");
+    string xinput = Console.ReadLine();
+    if (string.IsNullOrEmpty(xinput)) break; // Stop if input is empty (Enter is pressed)
+
+
+    Console.Write("Enter y: ");
+    string yinput = Console.ReadLine();
+    if (string.IsNullOrEmpty(yinput)) break;
+
+     x = Convert.ToDouble(xinput);
+     y = Convert.ToDouble(yinput);
+
+    double distance = Math.Sqrt(x*x + y*y);
+    if (distance < smallest)
+            {
+                smallest = distance;  // Update the smallest distance
+                closestX = x;         // Store the x coordinate of the closest point
+                closestY = y;         // Store the y coordinate of the closest point
+            }
+
+}
+
+Console.WriteLine($" ({closestX}, {closestY}) is the closest with the distance of {smallest:F2}");
+
+
+
+
+
+
 
 
 
