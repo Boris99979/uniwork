@@ -1,0 +1,14 @@
+/Users/boris/Desktop/Code/unics/Lab4/bin/Debug/net8.0/Lab4
+/Users/boris/Desktop/Code/unics/Lab4/bin/Debug/net8.0/Lab4.deps.json
+/Users/boris/Desktop/Code/unics/Lab4/bin/Debug/net8.0/Lab4.runtimeconfig.json
+/Users/boris/Desktop/Code/unics/Lab4/bin/Debug/net8.0/Lab4.dll
+/Users/boris/Desktop/Code/unics/Lab4/bin/Debug/net8.0/Lab4.pdb
+/Users/boris/Desktop/Code/unics/Lab4/obj/Debug/net8.0/Lab4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/boris/Desktop/Code/unics/Lab4/obj/Debug/net8.0/Lab4.AssemblyInfoInputs.cache
+/Users/boris/Desktop/Code/unics/Lab4/obj/Debug/net8.0/Lab4.AssemblyInfo.cs
+/Users/boris/Desktop/Code/unics/Lab4/obj/Debug/net8.0/Lab4.csproj.CoreCompileInputs.cache
+/Users/boris/Desktop/Code/unics/Lab4/obj/Debug/net8.0/Lab4.dll
+/Users/boris/Desktop/Code/unics/Lab4/obj/Debug/net8.0/refint/Lab4.dll
+/Users/boris/Desktop/Code/unics/Lab4/obj/Debug/net8.0/Lab4.pdb
+/Users/boris/Desktop/Code/unics/Lab4/obj/Debug/net8.0/Lab4.genruntimeconfig.cache
+/Users/boris/Desktop/Code/unics/Lab4/obj/Debug/net8.0/ref/Lab4.dll
