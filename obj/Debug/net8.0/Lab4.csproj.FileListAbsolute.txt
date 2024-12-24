@@ -12,3 +12,4 @@
 /Users/boris/Desktop/Code/unics/Lab4/obj/Debug/net8.0/Lab4.pdb
 /Users/boris/Desktop/Code/unics/Lab4/obj/Debug/net8.0/Lab4.genruntimeconfig.cache
 /Users/boris/Desktop/Code/unics/Lab4/obj/Debug/net8.0/ref/Lab4.dll
+/Users/boris/Desktop/Code/unics/Lab4/obj/Debug/net8.0/Lab4.sourcelink.json
